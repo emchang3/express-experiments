@@ -1,0 +1,1 @@
+System.register([],function(t,e){"use strict";var n;e&&e.id;return{setters:[],execute:function(){n=function(){SystemJS.import("t2.js").then(function(t){return t.default()}),console.log("t1")},t("default",n)}}});

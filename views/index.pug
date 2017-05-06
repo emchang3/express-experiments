@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+block scripts
+  script(src='/javascripts/system-production.js')
+  script
+    | System.config({ baseURL: '/javascripts' });
+    | System.import('t1.js').then((t1) => t1.default());
