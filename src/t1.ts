@@ -4,7 +4,7 @@ declare const SystemJS;
 
 // import { t2 } from './t2.js';
 
-const t1 = () => {
+const t1 : () => void = () => {
   SystemJS.import('t2.js').then((t2) => t2.default());
 
   console.log('t1');

@@ -1,3 +1,3 @@
-const t2 = () => console.log('t2');
+const t2 : () => void = () => console.log('t2');
 
 export default t2;
